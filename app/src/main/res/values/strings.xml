@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="name_hint">Your name/alias</string>
+    <string name="start_button">Start!</string>
+    <string name="flag_question">Which Country belongs to this flag?</string>
+    <string name="about_button">About the Dev:</string>
+    <string name="question_count">Question %1$d/%2$d</string>
+    <string name="flag_description">Flag of %s</string>
+    <string name="next_button">Next</string>
+    <string name="finish_button">Finish</string>
+    <string name="show_results">Show Result</string>
+    <string name="select_language">Select language</string>
+    <string name="result_score">Result: %1$d/10</string>
+    <string name="result_message_poor">You can do better!, %s!</string>
+    <string name="result_message_good">Good job!!, %s!</string>
+    <string name="result_message_excellent">Marvelous, you did fine!!!, %s!</string>
+    <string name="play_again">Play again</string>
+</resources>

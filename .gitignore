@@ -1,0 +1,44 @@
+# Diretórios de build
+/build
+/.gradle
+/.idea
+
+# Arquivos específicos do Android Studio
+*.iml
+*.iws
+*.ipr
+.idea/
+.navigation/
+captures/
+.DS_Store
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Logs e temp files
+*.log
+*.tmp
+*.bak
+
+# Arquivos gerados pelo sistema
+*.swp
+*.swo
+*~
+
+# Arquivos de configuração local (se houver)
+local.properties
+
+# Saídas do projeto (APKs, etc.)
+/app/build/
+/release/
+
+# Arquivos de usuário (se for Android)
+*.keystore
+*.jks
+
+# Outros (se for multiplataforma)
+bin/
+gen/
+out/

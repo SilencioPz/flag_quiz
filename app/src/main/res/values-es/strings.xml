@@ -1,0 +1,19 @@
+<resources>
+    <!-- values-es/strings.xml -->
+    <string name="app_name">Quiz de Banderas</string>
+    <string name="name_hint">Tu nombre/apodo</string>
+    <string name="start_button">¡Empezar!</string>
+    <string name="flag_question">¿A qué país pertenece esta bandera?</string>
+    <string name="about_button">Sobre el Dev:</string>
+    <string name="question_count">Pregunta %1$d/%2$d</string>
+    <string name="flag_description">Bandera de %s</string>
+    <string name="next_button">Siguiente</string>
+    <string name="finish_button">Terminar</string>
+    <string name="show_results">Mostrar Resultado</string>
+    <string name="select_language">Elija idioma:</string>
+    <string name="result_score">Resultado: %1$d/10</string>
+    <string name="result_message_poor">¡Puedes hacerlo mejor!, %s!</string>
+    <string name="result_message_good">¡¡Buen trabajo!!, %s!</string>
+    <string name="result_message_excellent">¡¡¡Maravilloso, lo hiciste muy bien!!!, %s!</string>
+    <string name="play_again">Jugar de nuevo</string>
+</resources>
