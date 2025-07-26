@@ -141,7 +141,7 @@ fun QuizScreen(
             }
 
             Text(
-                stringResource(R.string.question_count, uiState.currentQuestionIndex + 1, 12),
+                stringResource(R.string.question_count, uiState.currentQuestionIndex + 1, 10),
                 style = MaterialTheme.typography.titleMedium,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()

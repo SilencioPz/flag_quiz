@@ -110,7 +110,7 @@ fun AppContent() {
             onVisitWebsite = {
                 val intent = Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://silenciopz.neocities.org/projects")
+                    Uri.parse("https://silenciopz.neocities.org")
                 )
                 context.startActivity(intent)
             }
@@ -216,7 +216,7 @@ fun QuizScreenContent(viewModel: QuizViewModel) {
                 onVisitWebsite = {
                     val intent = Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://silenciopz.neocities.org/projects")
+                        Uri.parse("https://silenciopz.neocities.org")
                     )
                     context.startActivity(intent)
                 })
@@ -250,7 +250,7 @@ fun AboutDialog(
                 Spacer(Modifier.height(8.dp))
                 Text("Junior Programmer using Android/Kotlin and Java")
                 Spacer(Modifier.height(8.dp))
-                Text("Visit: https://silenciopz.neocities.org/projects")
+                Text("Visit: https://silenciopz.neocities.org")
             }
         },
         confirmButton = {
