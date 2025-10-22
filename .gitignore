@@ -1,44 +1,81 @@
-# Diretórios de build
-/build
-/.gradle
-/.idea
-
-# Arquivos específicos do Android Studio
+# --- Arquivos de IDE/Sistema ---
 *.iml
-*.iws
-*.ipr
-.idea/
-.navigation/
-captures/
+.gradle
 .DS_Store
-
-# Gradle
-.gradle/
-gradle-app.setting
-!gradle-wrapper.jar
-
-# Logs e temp files
-*.log
-*.tmp
-*.bak
-
-# Arquivos gerados pelo sistema
 *.swp
 *.swo
+*.log
+*.log.*
+*.bak
+*.tmp
+*.orig
 *~
 
-# Arquivos de configuração local (se houver)
-local.properties
+# --- Android Studio ---
+/.idea/
+!.idea/codeStyles/
+!.idea/copyright/
+/local.properties
+/captures/
+/output.json
 
-# Saídas do projeto (APKs, etc.)
-/app/build/
-/release/
+# --- Build/Compilação ---
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+**/bin/
+**/gen/
+**/out/
+**/build/
+**/production/
+**/.externalNativeBuild/
+**/.cxx/
+**/release/
+**/debug/
 
-# Arquivos de usuário (se for Android)
-*.keystore
-*.jks
+# --- Gradle ---
+!gradle-wrapper.properties
+gradle.properties
 
-# Outros (se for multiplataforma)
-bin/
-gen/
-out/
+# --- Ambiente/Configurações ---
+**/local_env/
+**/env/
+**/.env
+**/*.env
+**/keystore/
+**/*.keystore
+**/*.jks
+**/*.cert
+**/*.pfx
+
+# --- Outros ---
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+**/.metadata
+**/.recommenders
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/jspm_packages/
+**/web_modules/
+**/.cache/
+**/.nx/
+**/.npm/
+**/.yarn/
+
+# Arquivos específicos do Android
+google-services.json
+firebase-config.json
+
+# Mantenha o wrapper mas ignore arquivos temporários
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/wrapper/dists/
+
+# Ignore tudo na pasta build exceto se for necessário
+build/
+!build/**/src/

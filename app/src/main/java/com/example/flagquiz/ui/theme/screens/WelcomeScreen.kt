@@ -58,7 +58,6 @@ fun WelcomeScreen(
         }
     }
 
-// Para a música quando a tela é destruída (evita vazamentos)
     DisposableEffect(Unit) {
         onDispose {
             mediaPlayer?.release()
@@ -148,7 +147,7 @@ fun WelcomeScreen(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(
-                painter = painterResource(id = R.drawable.silenciopz_logo),
+                painter = painterResource(id = R.drawable.silenciopz_logo2),
                 contentDescription = "Silenciopz Logo",
                 modifier = Modifier
                     .size(200.dp)
@@ -212,7 +211,7 @@ fun WelcomeScreen(
                     color = Color.White
                 )
             }
-            //Crédito para a MusOpen
+
             Text(
                 text = "Music: Adieu au Piano - Beethoven (recording: MusOpen, CC PD)",
                 color = Color.Gray,

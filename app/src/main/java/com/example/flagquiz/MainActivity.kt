@@ -47,7 +47,6 @@ import com.example.flagquiz.ui.theme.screens.WelcomeScreen
 import com.example.flagquiz.ui.theme.viewmodels.QuizViewModel
 import kotlinx.coroutines.delay
 
-//Classe Principal do Projeto FlagQuiz
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -180,7 +179,6 @@ fun QuizScreenContent(viewModel: QuizViewModel) {
 
             Spacer(Modifier.height(16.dp))
 
-            // Exibe as opções de resposta
             uiState.currentOptions.forEach { country ->
                 Button(
                     onClick = { viewModel.submitAnswer(country.name) },
@@ -192,7 +190,6 @@ fun QuizScreenContent(viewModel: QuizViewModel) {
                 }
             }
 
-            // Feedback de acerto/erro
             if (uiState.selectedAnswer != null) {
                 Text(
                     text = if (uiState.isAnswerCorrect == true) "Right!" else "Wrong!",
